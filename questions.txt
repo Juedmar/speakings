@@ -1,0 +1,211 @@
+
+=========================
+BASIC ENGLISH 1 - CONTENT:
+=========================
+
+1A-1B: Grammar: Verb To Be (affirmative), Subject pronouns (I, you, etc). / Grammar: Verb to Be (Negative & Questions).
+1C: Grammar: Possessive adjectives (my, your, etc).
+2A: Grammar: a / an, plurals (this/that, these/those) / Things.
+
+---
+
+2C: Grammar: imperatives, let's / Vocabulary: feelings. 
+
+---
+
+3A: Grammar: Simple Present (Affirmative & Negative). Pronunciation: third person -s.
+3B: Grammar: Simple Present Questions. / Vocabulary: Jobs.
+3C: Grammar: Word order in questions. / Vocabulary: questions words.
+
+=========================
+TOPICS:
+=========================
+
+// Topic 1 - :
+
+  idArray [1] = "<b>Topic 1:</b> Talk about<u> all the people who live in your family</u>. Mention their names, their age & what they do. (Unit 1)."
+
+// Topic 2 - Imperative:
+
+  idArray [1] = "<b>Topic 2:</b> What are <u>your best tips to live a happy life?</u> (Unit 2C)."
+  idArray [2] = "<b>Topic 2:</b> Give <u>some tips for a hobby or pastime you have.</u> (Unit 2C)."
+  idArray [3] = "<b>Topic 2:</b> Give <u>some instructions to plan a great vacation.</u> (Unit 2C)."
+  idArray [4] = "<b>Topic 2:</b> What should <u>someone do if there is an earthquake?</u> (Unit 2C)."
+  idArray [5] = "<b>Topic 2:</b> Tell me how to <u>prepare some kind of delicious food.</u> (Unit 2C)."
+  idArray [6] = "<b>Topic 2:</b> What are your <u>best tips & recommendations for a happy marriage?</u> (Unit 2C)."
+  idArray [7] = "<b>Topic 2:</b> Give some <u>step-by-step instructions on how to make a lot of money.</u> (Unit 2C)."
+
+
+// Topic 3 - Present Simple:
+
+  idArray [1] = "<b>Topic 3:</b> What <u>TV shows</u> do you watch regularly? (Unit 3).</u>"
+  idArray [2] = "<b>Topic 3:</b> What do <u>you eat or drink</u> when it is <u>really hot</u> outside? (Unit 3).</u>"
+  idArray [3] = "<b>Topic 3:</b> When you're <u>on vacation</u>, do you <u>relax or try to do many things</u>? (Unit 3).</u>"
+  idArray [4] = "<b>Topic 3:</b> <u>What's a typical Saturday for you?</u> Describe what you generally do and what you don't do on this day. (Unit 3).</u>"
+  idArray [5] = "<b>Topic 3:</b> Talk about <u>your daily routine during the weekend</u>. Describe the times, frequency, activities, meals, hobbies, etc. (Unit 3).</u>"
+  idArray [6] = "<b>Topic 3:</b> Talk about what <u>you usually do at the end of the week</u>, including the activities, frequency, times, locations, etc. (Unit 3).</u>"
+  idArray [7] = "<b>Topic 3:</b> <u>Talk about your pastimes & hobbies</u>. Mention what activities you do, when you do them, how frequent, why you like them, etc. (Unit 3).</u>"
+  idArray [8] = "<b>Topic 3:</b> Talk about <u>sport and/or hobbies people like to practice regularly</u>, including the activities, the frequency, competitions, teams, etc. (Unit 3).</u>"
+  idArray [9] = "<b>Topic 3:</b> Talk about <u>your daily routine as a university student</u>, including the activities, times, frequency, meals, hobbies, family, transportation, etc. (Unit 3).</u>"
+  idArray [10] = "<b>Topic 3:</b> Discuss <u>the hobbies and sports younger people like to practice</u>, including the activities, the frequency, the gear and locations, etc. Exchange personal experiences. (Unit 3).</u>"
+  idArray [11] = "<b>Topic 3:</b> Talk about <u>a family member or a person you know well</u>. You can mention their name & appearance... but, most importantly, what she/he does, daily activities & routines, hobbies, etc. (Unit 3).</u>"
+
+  idArray [12] = "<b>Topic 3:</b> Talk about <u>interesting or difficult jobs</u>, including the name of that profession or occupation, the activities they do, places they visit, tools they use, etc. (Unit 3B).</u>"
+
+
+=========================
+BASIC ENGLISH 2 - CONTENT:
+=========================
+
+Simple Present or Present Continuous.
+Vocabulary: the weather & the seasons.
+Grammar: like + ing (preference).
+
+Grammar: Simple Past (Be): was/were.
+Grammar: Simple Past (Regular Verbs), past time expressions.
+Grammar: Simple Past (irregular verbs).
+Grammar: Simple Past: regular and irregular verbs.
+Vocabulary: Irregular verbs.
+Pronunciation: Simple Past verbs.
+
+Grammar: There is/are, some/any.
+Grammar: there was/ were.
+Vocabulary: prepositions of place and movement.
+Vocab. “the house”.
+Grammar: countable / uncountable nouns, a/an, some/any.
+Vocabulary: food.
+Grammar: quantifiers: how much / hoy many, a lot of, etc.
+Vocabulary: food containers.
+
+=========================
+TOPICS:
+=========================
+
+TOPIC 1 - PRESENT SIMPLE / CONTINUOUS / LIKES & DISLIKES:
+
+  idArray [1] = "<b>TOPIC 1:</b> <u>What's a typical Saturday for you?</u> Describe what you generally do and what you don't do on this day."
+  idArray [2] = "<b>TOPIC 1:</b> Talk about <u>all the things you are doing right now</u> in your life, including your personal life, education, music, hobbies, etc. Mention why you like doing them."
+  idArray [3] = "<b>TOPIC 1:</b> <u>What do you usually do on Friday nights?</u> Talk about what you usually do at the end of the week, including the activities, frequency, times, locations, etc."
+  idArray [4] = "<b>TOPIC 1:</b> <u>Talk about your pastimes & hobbies</u>. Mention what activities you like doing, when you do them, how frequent, why you like them, etc. Do you do them by yourself, or with your friends?"
+  idArray [5] = "<b>TOPIC 1:</b> <u>Talk about your home and family chores & obligations</u>, including all the things you have to do, the frequency, why you like (or dislike) doing them. What happens if you don't do them?"
+  idArray [6] = "<b>TOPIC 1:</b> <u>Talk about any housework</u> people with pets need to do</u> to keep their house clean. Mention all the things they have to do, how frequently they must do them. Why is it necessary to do them?"
+  idArray [7] = "<b>TOPIC 1:</b> <u>Talk about all the vegetables you like or dislike</u>, including their names, why you like or dislike them, how often you eat them, etc. How do they taste? In what format or containers do they come?"
+  idArray [8] = "<b>TOPIC 1:</b> Imagine you are in the middle of a busy city area. <u>Describe the things that are happening & mention all there is around you</u> at that moment. You can use your imagination."
+
+TOPIC 2 - PAST SIMPLE / THERE WAS / THERE WERE:
+
+  idArray [1] = "<b>TOPIC 2:</b> Which was <u>your favorite food when you were a kid</u>? Talk about your favorite snacks when you were a kid / in school."
+  idArray [2] = "<b>TOPIC 2:</b> What was <u>the last movie you saw</u>? Talk about what the main story was, who were the main characters, what happened to them."
+  idArray [3] = "<b>TOPIC 2:</b> Talk about the <u>last time you went out</u> with a friend or family member. You can say <u>where you went, what you did</u> and why."
+  idArray [4] = "<b>TOPIC 2:</b> Talk about the <u>last time you went on holiday</u>. You can say <u>who you went with, where you went, what you did</u> and if you enjoyed it."
+  idArray [5] = "<b>TOPIC 2:</b> Talk about <u>your last trip on summer vacation, including the activities you did</u>, including the people you were with, the food you ate, etc."
+  idArray [6] = "<b>TOPIC 2:</b> Talk about <u>the last time you went camping, went on a road trip or stayed at a friend's house</u>, including how long it was, where you stayed, what you did or ate, etc."
+  idArray [7] = "<b>TOPIC 2:</b> Talk about <u>the last time you were outside in nature</u> (like the countryside, a forest, river or lake). You can mention was there, the activities you did, the people you met, etc."
+
+TOPIC 3 - THERE IS / ARE / FURNITURE / PREPOSITIONS / UNCOUNTABLE FOOD:
+
+  idArray [1] = "<b>TOPIC 3:</b> <u>Describe your bedroom in detail</u>, including all the things you can see there, where they are, the colors and sizes, the number of things, etc. Remember to use correct prepositions."
+  idArray [2] = "<b>TOPIC 3:</b> <u>Describe your living room in detail</u>, including all the things you can see there, where they are, the colors and sizes, the number of things, etc. Remember to use correct prepositions."
+  idArray [3] = "<b>TOPIC 3:</b> <u>Describe your kitchen in detail</u>, including all the things you can see, where they are, the colors and sizes, the number of things, etc. Remember to use correct prepositions."
+  idArray [4] = "<b>TOPIC 3:</b> <u>Talk about all your favorite food</u>. Mention why you like it, when and where you eat it, how often you eat it, etc. What are the main ingredients? How do you prepare it?"
+  idArray [5] = "<b>TOPIC 3:</b> <u>Talk about all the delicious snacks you like</u>. Mention what they are, why you like them, how often you eat them, the amounts, etc. In what sizes, formats or containers do they come?"
+  idArray [6] = "<b>TOPIC 3:</b> <u>Describe the meals or dishes you eat when you are very hungry</u>, including the names, the types of meal, why you like them, how often you eat them, the main ingredients, etc."
+  idArray [7] = "<b>TOPIC 3:</b> Talk about <u>the meals you eat during the day</u>. You can mention the meals, the times & frequency, the ingredients, desserts, drinks, condiments, etc."
+
+
+
+
+=========================
+INTERMEDIATE ENGLISH 2 - CONTENT:
+=========================
+
+Grammar: Verbs + Infinitive.
+Grammar: The use of the Gerund.
+Grammar: “Have to, don't have to, must, must not, can't”.
+Grammar: giving advice.
+Grammar: Should and Get.
+
+Grammar: IF clause Nº 1 - Present Simple + Will.
+Grammar: If Clause N° 2 -- Past Tense and Would (conditional).
+
+Grammar: Present Perfect + For and Since.
+Grammar: Present Perfect or Past simple?
+Grammar: Passive voice.
+Grammar: “Used to”.
+
+=========================
+TOPICS:
+=========================
+
+TOPIC 1 - MODALS / VERB + TO / VERB + GERUND:
+
+  idArray [1] = "<b>TOPIC 1:</b> Talk about <u>something you always forget to do.</u> Explain. (Unit 7)."
+  idArray [2] = "<b>TOPIC 1:</b> Talk about <u>something you hope to do in the future.</u> Why? (Unit 7)."
+  idArray [3] = "<b>TOPIC 1:</b> Talk about some <u>places you want/hope to go on vacation</u> some day. Why? (Unit 7)."
+  idArray [4] = "<b>TOPIC 1:</b> Talk about what <u>housework do you not mind doing.</u> Explain. (Unit 7)."
+  idArray [5] = "<b>TOPIC 1:</b> Talk about some <u>activities you dislike doing</u>. Explain why. (Unit 7)."
+  idArray [6] = "<b>TOPIC 1:</b> Talk about what activities <u>you enjoy doing on the weekend.</u> Explain. (Unit 7)."
+  idArray [7] = "<b>TOPIC 1:</b> Talk about some <u>high school activities you miss doing.</u> Explain. (Unit 7)."
+  idArray [8] = "<b>TOPIC 1:</b> Talk about what <u>activities you recommend to stay healthy.</u> Explain. (Unit 7)."
+  idArray [9] = "<b>TOPIC 1:</b> Talk about <u>what kind of activities your job or studies involve doing.</u> (Unit 7)."
+  idArray [10] = "<b>TOPIC 1:</b> Talk about <u>some of the something you're considering doing?</u> What are they? Explain why. (Unit 7)."
+  idArray [11] = "<b>TOPIC 1:</b> Talk about if you think that <u>playing video games is useful or a waste of time.</u> Why or why not? (Unit 7)."
+  idArray [12] = "<b>TOPIC 1:</b> What are <u>some of your wishes for the future</u>, either in your personal life, family life or professional aspirations? (Unit 7)."
+  idArray [13] = "<b>TOPIC 1:</b> Talk about what you<u> want, hope or expect to do after you graduate.</u> What other wishes or life goals <u>will you try to accomplish</u>? (Unit 7)."
+  idArray [14] = "<b>TOPIC 1:</b> What <u>health advice and recommendation has a friend</u>, or someone in your family, <u>ever told you that helps you stay fit and healthy</u>? (Unit 7)."
+
+  idArray [15] = "<b>TOPIC 1:</b> Tak about <u>what a person has do to be happy.</u> Why? (Unit 7C & 8A)."
+  idArray [16] = "<b>TOPIC 1:</b> Tak about <u>some things you have to do when you get home.</u> Explain. (Unit 7C & 8A)."
+  idArray [17] = "<b>TOPIC 1:</b> Tak about <u>what students have to do if they want to improve their English.</u> (Unit 7C & 8A)."
+  idArray [18] = "<b>TOPIC 1:</b> Tak about <u>some of the things a person has to do to become successful.</u> Why? (Unit 7C & 8A)."
+  idArray [19] = "<b>TOPIC 1:</b> Tak about <u>some necessary foods people have to eat at least once a week.</u> Why? (Unit 7C & 8A)."
+  idArray [20] = "<b>TOPIC 1:</b> Tak about <u>some things you must or must not do at your job or university.</u> Exaplin. (Unit 7C & 8A)."
+  idArray [21] = "<b>TOPIC 1:</b> Tak about <u>some things you must do or must not do when you go to the airport.</u> Explain. (Unit 7C & 8A)."
+  idArray [22] = "<b>TOPIC 1:</b> Tak about <u>some interesting customs & traditions people have to follow in this country.</u> Explain. (Unit 7C & 8A)."
+
+TOPIC 2 - 1ST & 2ND CONDITIONALS:
+
+  idArray [1] = "<b>TOPIC 2:</b> Talk about <u>the things you will do if you are bored</u>. (Unit 8B)."
+  idArray [2] = "<b>TOPIC 2:</b> What will you do <u>if it rains every day this weekend</u>? (Unit 8B)."
+  idArray [3] = "<b>TOPIC 2:</b> What will you do <u>if you meet a celebrity you admire</u>? (Unit 8B)."
+  idArray [4] = "<b>TOPIC 2:</b> Who will you eat with <u>if you go out to dinner this week</u>? (Unit 8B)."
+  idArray [5] = "<b>TOPIC 2:</b> <u>If you go out for dinner this evening</u>, what will you eat? (Unit 8B)."
+  idArray [6] = "<b>TOPIC 2:</b> Talk about <u>some of the things you will do when you graduate</u>. (Unit 8B)."
+  idArray [7] = "<b>TOPIC 2:</b> What will you do <u>if the power goes out in your home tonight</u>? (Unit 8B)."
+  idArray [8] = "<b>TOPIC 2:</b> Talk about <u>what type of food you will order if you go out to eat</u>. (Unit 8B)."
+  idArray [9] = "<b>TOPIC 2:</b> Talk about <u>where you will go if you want to relax or have some fun</u>. (Unit 8B)."
+  idArray [10] = "<b>TOPIC 2:</b> What will you do <u>if you crack the screen on your phone</u> or <u>drop it in the toilet</u>? (Unit 8B)."
+  idArray [11] = "<b>TOPIC 2:</b> What will you do <u>if you forget an important birthday</u>, like your best friend or a family member? (Unit 8B)."
+  idArray [12] = "<b>TOPIC 2:</b> If you get a chance to start studying at university again, <u>what area or program will you choose</u>? (Unit 8B)."
+  idArray [13] = "<b>TOPIC 2:</b> Talk about <u>what you will do when you go to the cinema</u>, including movie types, friends, times, popcorn, drinks, etc. (Unit 8B)."
+  idArray [14] = "<b>TOPIC 2:</b> Talk about <u>how your life will be affected if there is a very serious financial crisis.</u> What parts of your life will be changed or be forced to stop? (Unit 8B)."
+  idArray [15] = "<b>TOPIC 2:</b> Talk about <u>how your life will be affected if you become absolutely rich & wealthy.</u> What parts of your life will be changed or improved by your new wealth? (Unit 8B)."
+
+  idArray [16] = "<b>TOPIC 2:</b> If you were an animal,<u> what animal would you be</u>? (Unit 9A)."
+  idArray [17] = "<b>TOPIC 2:</b> <u>If you had only one week to live</u>, what would you do? (Unit 9A)."
+  idArray [18] = "<b>TOPIC 2:</b> What spell would you want to know <u>if you were a wizard</u>? (Unit 9A)."
+  idArray [19] = "<b>TOPIC 2:</b> If you could have any animal as a pet, <u>what animal would you want</u>? (Unit 9A)."
+  idArray [20] = "<b>TOPIC 2:</b> If you could create a superhero, <u>what would their power and name be</u>? (Unit 9A)."
+  idArray [21] = "<b>TOPIC 2:</b> If you could be a master at one skill, <u>what would you be a master of</u>? (Unit 9A)."
+  idArray [22] = "<b>TOPIC 2:</b> What would you tell yourself <u>if you could go back in time and talk to your younger self</u>? (Unit 9A)."
+  idArray [23] = "<b>TOPIC 2:</b> If you could <u>buy all of your possessions & things again</u> but brand new, <u>what would you buy</u>? What stores would you visit? (Unit 9A)."
+  idArray [24] = "<b>TOPIC 2:</b> What <u>food & supplies</u> would you buy <u>if there was a zombie apocalypse</u>? Where would you go & eat to survive the initial weeks? (Unit 9A)."
+  idArray [25] = "<b>TOPIC 2:</b> Talk about the activities you would do if you were a millionaire. What would you do every day? What will you never do again after you become rich? (Unit 9A)."
+  idArray [26] = "<b>TOPIC 2:</b> Choose <u>one housekeeping activity you will have to do every day & another you won't ever have to do again</u> for the rest of your life. Explain your choices. (Unit 9A)."
+  idArray [27] = "<b>TOPIC 2:</b> If you could buy the house of your dreams, <u>what would you like to have in your ideal house?</u> Swimming pool, basketball court, barbecue area, a private cinema? Why? (Unit 9A)."
+
+TOPIC 3 - PRESENT PERFECT / FOR & SINCE / PASSIVE VOICE / PAST SIMPLE & USED TO:
+
+  idArray [1] = "<b>TOPIC 3:</b> Talk about some <u>interesting hobbies have you tried</u>. Why did you like doing them? (Unit 9B & 9C)."
+  idArray [2] = "<b>TOPIC 3:</b> Talk about <u>some of the places where you've been on vacation</u>. What did you do there? (Unit 9B & 9C)."
+  idArray [3] = "<b>TOPIC 3:</b> Talk about <u>some interesting places you've been to in this country</u>. What did you do there? (Unit 9B & 9C)."
+  idArray [4] = "<b>TOPIC 3:</b> Talk about <u>how many times have you been to a concert or a theme park</u>? What did you do there? (Unit 9B & 9C)."
+  idArray [5] = "<b>TOPIC 3:</b> Talk about <u>something you have done in your free time for entertainment</u>. Mention where, when and who you have done this with. (Unit 9B & 9C)."
+  idArray [6] = "<b>TOPIC 3:</b> Have you <u>ever been hospitalized or very sick at home</u>? Mention what happened to you, what the doctors or parents told you, what you did to get better, and the final result. (Unit 9B & 9C)."
+  idArray [7] = "<b>TOPIC 3:</b> Talk about a <u>medical problem you have experienced</u>, including symptoms, treatment, recovery time, advice & prevention, etc. (Unit 9B & 9C)."
+
+  idArray [8] = "<b>TOPIC 3:</b> In <u>what country were the greatest works of art created</u>? Who was it made by? (Unit 10A)."
+  idArray [9] = "<b>TOPIC 3:</b> What is <u>the greatest invention ever created</u>? Who was it invented by? Where was it invented? (Unit 10A)."
+
+  idArray [10] = "<b>TOPIC 3:</b> Talk about all the <u>things you used to do when you were in high school</u>. Mention the activities, the places, the people, the food, hobbies, frequency, etc. (Unit 10B)."
+  idArray [11] = "<b>TOPIC 3:</b> Talk to each other about <u>your childhood hobbies and pastimes</u>. Mention all the things you used to do, the frequency, games, toys, TV shows, favorite meals, etc. (Unit 10B)."

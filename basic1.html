@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<head>
+<html lang="en-US">
+<meta http-equiv="Content-Type">
+<link rel="icon" href="favicon-speak-2.png">
+<title>Basic English I - Individual Speaking Assessment</title>
+</head>
+
+<style>
+
+body {	background-color: #333333;
+	background-image: url('gray-tiles.jpg');
+	font-family: Verdana, Helvetica, sans-serif;
+	margin-top: 32px;
+	margin-bottom: 24px;
+}
+
+h3 {
+	font-color: #005B9A;
+	color: #005B9A;
+	}
+
+p {
+	text-align: justify;
+	font-family: Verdana, Tahoma;
+	family: Verdana, Tahoma;
+	font-color: #005B9A;
+	color: #005B9A;
+	font-size: 16px;
+	}
+
+font.text-juedmar {
+	text-align: justify;
+	font-family: Verdana, Tahoma;
+	family: Verdana, Tahoma;
+	font-color: #555555;
+	color: #555555;
+	font-size: 12px;
+	}
+
+ol {
+	font-family: Verdana, Tahoma;
+	family: Verdana, Tahoma;
+	font-color: #333333;
+	color: #333333;
+	font-size: 14px;
+	line-height: 1.8;
+	}
+
+ol.topics {
+	font-color: #005B9A;
+	color: #005B9A;
+	font-size: 15px;
+	line-height: 1.5;
+	}
+
+ul {
+	font-family: Verdana, Tahoma;
+	family: Verdana, Tahoma;
+	font-color: #999999;
+	color: #999999;
+	font-size: 13px;
+	line-height: 1.2;
+	}
+
+a {text-decoration: none; color:#0191C8; font-size: 14; }
+
+div.page {
+	margin: auto;
+	margin-bottom: 25px;
+	width: 75%;
+	background-color: white;
+	justify-content: center;
+	border-radius: 6px 6px;
+	padding: 12px 48px 12px 48px;
+	}
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #333333; }
+::-webkit-scrollbar-thumb { background: #888; }
+::-webkit-scrollbar-thumb:hover { background: #555; }
+
+</style>
+
+
+<audio id="click" src="click.mp3" preload="auto" style="display: none;">
+Your browser does not support the <code>audio</code> element.
+</audio>
+
+<script>
+function sound() {
+	var snd = new Audio('click.mp3') //wav is also supported
+	snd.play() //plays the sound
+	}
+</script>
+
+
+<body onload="myFunctionOne(); myFunctionTwo(); myFunctionThree()">
+
+<button id="select1" onclick="myFunctionOne()" style="display:none;">Topic 1</button>
+<button id="select2" onclick="myFunctionTwo()" style="display:none;">Topic 2</button>
+<button id="select3" onclick="myFunctionThree()" style="display:none;">Topic 3</button>
+
+<div align="justify" class="page">
+<center><h3>Basic English I<br>Individual Speaking Assessment</h3></center>
+
+<br>
+
+<p>
+<b>INSTRUCTIONS:</b><br>
+<ol>
+1. FORMAT: Record yourself on your phone or a meeting app talking about the topics below.<br>
+2. <a id="topics" style="text-decoration: none; color: black;">TOPICS: Choose only TWO TOPICS (2) to cover in the presentation (individually, 1 student only).</a><br>
+3. <a id="timing" style="text-decoration: none; color: black;">TIME: Each topic should last around 60 seconds (10 seconds more/less is still okay for each topic).</a><br>
+4. SUBMISSION: Attach the video <b>directly</b> on the <a href="https://classroom.google.com/" target="classroom" onclick="sound();">Google Classroom</a> assignment (<font color="#D2042D"><b>not</b></font> by e-mail!).<br>
+5. <a id="deadline" style="text-decoration: none; color: black;">DEADLINE: The final date for sending your video is Thursday, November 30th (end of the month).</a><br>
+6. PERFORMANCE: Do not read from a script. You can quickly check some notes, but most importantly speak as a natural conversation or presentation.<br>
+</ol>
+</p>
+
+<br>
+
+<p>
+
+<b>INDIVIDUAL TOPICS <a href="#" onclick="myFunctionOne(); myFunctionTwo(); myFunctionThree(); sound();">&#9851;</a>:</b>
+
+<ol class="topics" id="result-one"></ol>
+<script type="text/javascript" src="basic1/topicFirst.js"></script>
+
+<ol class="topics" id="result-two"></ol>
+<script type="text/javascript" src="basic1/topicSecond.js"></script>
+
+<ol class="topics" id="result-three"></ol>
+<script type="text/javascript" src="basic1/topicThird.js"></script>
+
+<br>
+
+<p>
+<b>IMPORTANTE:</b><br>
+<ul>La presentación debe ser un video grabado en un solo clip. Se puede utilizar cámara de celular, o vía Zoom, Google Meet, Skype o alguna otra aplicación donde se pueda utilizar una cámara web. La grabación debe tener claridad de audio, sin obstrucción visual y enfocada principalmente en al rostro.</ul>
+<ul>Los <a href="#topics" onclick="changeStyle('topics'); sound();">2 temas</a> y el contenido de su presentación deben estar relacionados con el vocabulario y las estructuras gramaticales de cada unidad, y se deben utilizar en conjunto.</ul>
+<ul>En respuestas que excedan el <a href="#timing" onclick="changeStyle('timing'); sound();">tiempo asignado</a>, no se considerará el tiempo extra.</ul>
+<ul>El nombre del archivo debe ser: “Lastname, Name (Class - Program)”.</ul>
+<ul>El <a href="#deadline" onclick="changeStyle('deadline'); sound();">plazo final</a> se debe cumplir para poder realizar el análisis y la evaluación correspondiente.</ul>
+<ul>El resultado se ingresará directo en la plataforma de Google Classroom siguiendo los lineamientos ya establecidos en la <a href="https://juedmar.github.io/assessment/" target="rubric" onclick="sound();">rúbrica de evaluación</a>.</ul>
+<ul>No se considerarán entregas posteriores al plazo, con la excepción de la justificación debidamente presentada ante la Dirección de Carrera.</ul>
+</p>
+<br>
+</div>
+
+<center><font class="text-juedmar">Developed by Juan Edo. Méndez (juan.mendez@upla.cl)</font></center>
+
+
+<script>
+function changeStyle(id)
+{
+   document.getElementById(id).style.color = '#D2042D';
+   document.getElementById(id).style.fontSize = '16px';
+   document.getElementById(id).style.textDecoration = 'underline';
+   document.getElementById(id).style.backgroundColor = 'rgba(255,255,224,0.1)';
+   // document.getElementById(id).style.fontWeight = 'bold';
+   // document.getElementById(id).style.lineHeight = '3';
+   document.getElementById(id).style.transition = '1.2s';
+   document.getElementById(id).style.margin = '6px';
+}
+</script>
+
+
+</body>
+</html>
