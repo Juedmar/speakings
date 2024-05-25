@@ -8,13 +8,13 @@ function myFunctionOne() {
   idArray [5] = "<b>TOPIC 1:</b> Imagine you are in the middle of a busy city area. <u>Describe the things that are happening & mention all there is around you</u> at that moment. You can use your imagination. (Unit 1: Present Simple & Continuous / There is & are)."
   idArray [6] = "<b>TOPIC 1:</b> Look outside your window / outside your front door. <u>Describe all the things that are happening at that moment, including all there is around you</u>. (Unit 1: Present Simple & Continuous / There is & are)."
 
-  idArray [7] = "<b>TOPIC 1:</b> Talk about what <u>housework do you not mind doing.</u> Explain. (Unit 1: Present Simple & Continuous / Unit 4: Make or Do)."
-  idArray [8] = "<b>TOPIC 1:</b> Talk about some <u>activities you dislike doing</u>. Explain why. (Unit 1: Present Simple & Continuous / Unit 4: Make or Do)."
+  idArray [7] = "<b>TOPIC 1:</b> Talk about what <u>housework you do not mind doing every day, or in general.</u> Explain. (Unit 1: Present Simple & Continuous / Unit 4: Make or Do)."
+  idArray [8] = "<b>TOPIC 1:</b> Talk about some <u>activities you dislike doing every day</u>. Explain why. (Unit 1: Present Simple & Continuous / Unit 4: Make or Do)."
   idArray [9] = "<b>TOPIC 1:</b> Talk about what activities <u>you enjoy doing on the weekend.</u> Explain. (Unit 1: Present Simple & Continuous / Unit 4: Make or Do)."
 
   idArray [10] = "<b>TOPIC 1:</b> Talk about <u>something you hope to do in the future.</u> Why? (Unit 3: Future Plans / Present Continuous for Future Arrangements)."
   idArray [11] = "<b>TOPIC 1:</b> Talk about some <u>places you want/hope to go on vacation</u> some day. Why? (Unit 3: Future Plans / Present Continuous for Future Arrangements)."
-  idArray [12] = "<b>TOPIC 1:</b> Talk about <u>some of the something you're considering doing?</u> What are they? Explain why. (Unit 3: Future Plans / Present Continuous for Future Arrangements)."
+  idArray [12] = "<b>TOPIC 1:</b> Talk about <u>some of the activities/hobbies you're considering doing?</u> What are they? Explain why. (Unit 3: Future Plans / Present Continuous for Future Arrangements)."
   idArray [13] = "<b>TOPIC 1:</b> What are <u>some of your wishes for the future</u>, either in your personal life, family life or professional aspirations? (Unit 3: Future Plans / Present Continuous for Future Arrangements)."
   idArray [14] = "<b>TOPIC 1:</b> Talk about what you<u> want, hope or expect to do after you graduate.</u> What other wishes or life goals <u>will you try to accomplish</u>? (Unit 3: Future Plans / Present Continuous for Future Arrangements)."
 
