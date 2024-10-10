@@ -97,7 +97,7 @@ function sound() {
 </script>
 
 
-<body onload="myFunctionOne(); myFunctionTwo(); myFunctionThree()">
+<body onload="myFunctionOne(); myFunctionTwo(); myFunctionThree(); testDate()">
 
 <button id="select1" onclick="myFunctionOne()" style="display:none;">Topic 1</button>
 <button id="select2" onclick="myFunctionTwo()" style="display:none;">Topic 2</button>
@@ -115,7 +115,7 @@ function sound() {
 2. <a id="topics" style="text-decoration: none; color: black;">TOPICS: Talk to each other about TWO TOPICS (2) from the following list.</a><br>
 3. <a id="timing" style="text-decoration: none; color: black;">TIME: Each of the topics should last between 60 to 90 seconds (3 minutes is the max).</a><br>
 4. SUBMISSION: Attach the video <font color="#ff073a"><b>directly</b></font> on the <a href="https://classroom.google.com/" target="classroom" onclick="sound();">Google Classroom</a> assignment (<font color="#ff073a"><b>not by e-mail!</b></font>).<br>
-5. <a id="deadline" style="text-decoration: none; color: black;">DEADLINE: The final date for sending your video is Thursday, October 31st (end of the month).</a><br>
+5. <a id="deadline" style="text-decoration: none; color: black;">DEADLINE: The final date for sending your video is <span id="testDate">Thursday, October 31st (end of the month)</span>.</a><br>
 6. PERFORMANCE: Do not read from a script. You can quickly check some notes, but most importantly speak as a natural conversation or presentation.<br>
 </ol>
 </p>
@@ -166,6 +166,21 @@ function changeStyle(id)
    document.getElementById(id).style.transition = '1.5s';
 }
 </script>
+
+
+<script type="text/javascript">
+function testDate() {
+var thisDate = (new URLSearchParams(window.location.search)).get("when"); // console.log(thisDate);
+var testDate = document.getElementById('testDate'); // console.log(testDate)
+testDate.innerHTML = thisDay;
+}
+
+// /======================================================\
+// | Format: /intermedioII.html?when=Friday, November 7th |
+// \======================================================/
+
+</script>
+
 
 
 </body>
