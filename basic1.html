@@ -5,84 +5,10 @@
 <html>
 <head>
   <link rel="icon" href="favicon-speak-2.png">
+  <link rel="stylesheet" href="main_style.css">
   <title>Basic English I - Individual Speaking Assessment</title>
 </head>
 
-<style>
-
-body {	background-color: #333333;
-	background-image: url('gray-tiles.jpg');
-	font-family: Verdana, Helvetica, sans-serif;
-	margin-top: 32px;
-	margin-bottom: 24px;
-}
-
-h3 {
-	font-color: #005B9A;
-	color: #005B9A;
-	}
-
-p {
-	text-align: justify;
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #005B9A;
-	color: #005B9A;
-	font-size: 16px;
-	}
-
-font.text-juedmar {
-	text-align: justify;
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #555555;
-	color: #555555;
-	font-size: 12px;
-	}
-
-ol {
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #333333;
-	color: #333333;
-	font-size: 14px;
-	line-height: 1.8;
-	}
-
-ol.topics {
-	font-color: #005B9A;
-	color: #005B9A;
-	font-size: 15px;
-	line-height: 1.5;
-	}
-
-ul {
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #999999;
-	color: #999999;
-	font-size: 13px;
-	line-height: 1.2;
-	}
-
-a {text-decoration: none; color:#0191C8; font-size: 14; }
-
-div.page {
-	margin: auto;
-	margin-bottom: 25px;
-	width: 75%;
-	background-color: white;
-	justify-content: center;
-	border-radius: 6px 6px;
-	padding: 12px 48px 12px 48px;
-	}
-
-::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #333333; }
-::-webkit-scrollbar-thumb { background: #888; }
-::-webkit-scrollbar-thumb:hover { background: #555; }
-
-</style>
 
 
 <audio id="click" src="click.mp3" preload="auto" style="display: none;">
@@ -91,9 +17,9 @@ Your browser does not support the <code>audio</code> element.
 
 <script>
 function sound() {
-	var snd = new Audio('click.mp3') //wav is also supported
-	snd.play() //plays the sound
-	}
+ var snd = new Audio('click.mp3') //wav is also supported
+ snd.play().catch(error => { console.log("Auto play onload is disabled!") }) //plays the sound
+}
 </script>
 
 
@@ -140,10 +66,10 @@ function sound() {
 <p>
 <b>IMPORTANTE:</b><br>
 <ul>La presentaci&oacute;n debe ser un video grabado en un solo clip. Se puede utilizar c&aacute;mara de celular, o v&iacute;a Zoom, Google Meet, Skype o alguna otra aplicaci&oacute;n donde se pueda utilizar una c&aacute;mara web. La grabaci&oacute;n debe tener claridad de audio, sin obstrucci&oacute;n visual y enfocada principalmente en al rostro.</ul>
-<ul>Los <a href="#topics" onclick="changeStyle('topics'); sound();">2 temas</a> y el contenido de su presentaci&oacute;n deben estar relacionados con el vocabulario y las estructuras gramaticales de cada unidad, y se deben utilizar en conjunto.</ul>
-<ul>En respuestas que excedan el <a href="#timing" onclick="changeStyle('timing'); sound();">tiempo asignado</a>, no se considerar&aacute; el tiempo extra.</ul>
+<ul>Los <a href="#top" onclick="changeStyle('topics'); sound();">2 temas</a> y el contenido de su presentaci&oacute;n deben estar relacionados con el vocabulario y las estructuras gramaticales de cada unidad, y se deben utilizar en conjunto.</ul>
+<ul>En respuestas que excedan el <a href="#top" onclick="changeStyle('timing'); sound();">tiempo asignado</a>, no se considerar&aacute; el tiempo extra.</ul>
 <ul>El nombre del archivo debe ser: "Lastname, Name (Class - Program)".</ul>
-<ul>El <a href="#deadline" onclick="changeStyle('deadline'); sound();">plazo final</a> se debe cumplir para poder realizar el an&aacute;lisis y la evaluaci&oacute;n correspondiente.</ul>
+<ul>El <a href="#top" onclick="changeStyle('deadline'); sound();">plazo final</a> se debe cumplir para poder realizar el an&aacute;lisis y la evaluaci&oacute;n correspondiente.</ul>
 <ul>El resultado se ingresar&aacute; directo en la plataforma de Google Classroom siguiendo los lineamientos ya establecidos en la <a href="https://juedmar.github.io/assessment/" target="rubric" onclick="sound();">r&uacute;brica de evaluaci&oacute;n</a>.</ul>
 <ul>No se considerar&aacute;n entregas posteriores al plazo, con la excepci&oacute;n de la justificaci&oacute;n debidamente presentada ante la Direcci&oacute;n de Carrera.</ul>
 </p>
@@ -181,9 +107,9 @@ else {
   }
 }
 
-// /======================================================\
+// /================================================\
 // | Format: /basicI.html?when=Friday, November 7th |
-// \======================================================/
+// \================================================/
 
 </script>
 

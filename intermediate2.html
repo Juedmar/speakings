@@ -5,84 +5,9 @@
 <html>
 <head>
   <link rel="icon" href="favicon-speak-2.png">
+  <link rel="stylesheet" href="main_style.css">
   <title>Intermediate English II - Pairwork Speaking Assessment</title>
 </head>
-
-<style>
-
-body {	background-color: #333333;
-	background-image: url('gray-tiles.jpg');
-	font-family: Verdana, Helvetica, sans-serif;
-	margin-top: 32px;
-	margin-bottom: 24px;
-}
-
-h3 {
-	font-color: #005B9A;
-	color: #005B9A;
-	}
-
-p {
-	text-align: justify;
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #005B9A;
-	color: #005B9A;
-	font-size: 16px;
-	}
-
-font.text-juedmar {
-	text-align: justify;
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #555555;
-	color: #555555;
-	font-size: 12px;
-	}
-
-ol {
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #333333;
-	color: #333333;
-	font-size: 14px;
-	line-height: 1.8;
-	}
-
-ol.topics {
-	font-color: #005B9A;
-	color: #005B9A;
-	font-size: 15px;
-	line-height: 1.5;
-	}
-
-ul {
-	font-family: Verdana, Tahoma;
-	family: Verdana, Tahoma;
-	font-color: #999999;
-	color: #999999;
-	font-size: 13px;
-	line-height: 1.2;
-	}
-
-a {text-decoration: none; color:#0191C8; font-size: 14; }
-
-div.page {
-	margin: auto;
-	margin-bottom: 25px;
-	width: 75%;
-	background-color: white;
-	justify-content: center;
-	border-radius: 6px 6px;
-	padding: 12px 48px 12px 48px;
-	}
-
-::-webkit-scrollbar { width: 10px; }
-::-webkit-scrollbar-track { background: #333333; }
-::-webkit-scrollbar-thumb { background: #888; }
-::-webkit-scrollbar-thumb:hover { background: #555; }
-
-</style>
 
 
 <audio id="click" src="click.mp3" preload="auto" style="display: none;">
@@ -91,9 +16,9 @@ Your browser does not support the <code>audio</code> element.
 
 <script>
 function sound() {
-	var snd = new Audio('click.mp3') //wav is also supported
-	snd.play() //plays the sound
-	}
+ var snd = new Audio('click.mp3') //wav is also supported
+ snd.play().catch(error => { console.log("Auto play onload is disabled!") }) //plays the sound
+}
 </script>
 
 
