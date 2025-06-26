@@ -108,16 +108,16 @@ Your browser does not support the <code>audio</code> element.
 
 <script>
 function bip() {
-	var snd = new Audio('bip.mp3') //wav is also supported
-	snd.play() //plays the sound
-	}
+ var snd = new Audio('bip.mp3') //wav is also supported
+ snd.play().catch(error => { console.log("Auto play onload is disabled!") }) //plays the sound
+}
 </script>
 
 <script>
 function sound() {
-	var snd = new Audio('click.mp3') //wav is also supported
-	snd.play() //plays the sound
-	}
+ var snd = new Audio('click.mp3') //wav is also supported
+ snd.play().catch(error => { console.log("Auto play onload is disabled!") }) //plays the sound
+ }
 </script>
 
 
