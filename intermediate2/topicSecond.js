@@ -1,5 +1,7 @@
 function myFunctionTwo() {
   idArray = new Array()
+
+  // FIRST CONDITIONAL
   idArray [1] = "<b>TOPIC 2:</b> Talk about <u>the things you will do if you are bored</u>. (Unit 8B)."
   idArray [2] = "<b>TOPIC 2:</b> What will you do <u>if it rains every day this weekend</u>? (Unit 8B)."
   idArray [3] = "<b>TOPIC 2:</b> What will you do <u>if you meet a celebrity you admire</u>? (Unit 8B)."
@@ -16,6 +18,7 @@ function myFunctionTwo() {
   idArray [14] = "<b>TOPIC 2:</b> Talk about <u>how your life will be affected if there is a very serious financial crisis.</u> What parts of your life will be changed or be forced to stop? (Unit 8B)."
   idArray [15] = "<b>TOPIC 2:</b> Talk about <u>how your life will be affected if you become absolutely rich & wealthy.</u> What parts of your life will be changed or improved by your new wealth? (Unit 8B)."
 
+  // SECOND CONDITIONAL
   idArray [16] = "<b>TOPIC 2:</b> If you were an animal,<u> what animal would you be</u>? (Unit 9A)."
   idArray [17] = "<b>TOPIC 2:</b> <u>If you had only one week to live</u>, what would you do? (Unit 9A)."
   idArray [18] = "<b>TOPIC 2:</b> What spell would you want to know <u>if you were a wizard</u>? (Unit 9A)."
