@@ -1,15 +1,25 @@
 function myFunctionOne() {
-  idArray = new Array()
-  idArray [1] = "<b>TOPIC 1:</b> <u>What's a typical Saturday for you?</u> Describe what you generally do and what you don't do on this day. (Unit 5C: Present Simple)."
-  idArray [2] = "<b>TOPIC 1:</b> Talk about <u>all the things you are doing right now</u> in your life, including your personal life, education, music, hobbies, etc. Mention why you like doing them. (Unit 5C: Present Continuous)."
-  idArray [3] = "<b>TOPIC 1:</b> <u>What do you usually do on Friday nights?</u> Talk about what you usually do at the end of the week, including the activities, frequency, times, locations, etc. (Unit 5C: Present Simple)."
-  idArray [4] = "<b>TOPIC 1:</b> <u>Talk about your pastimes & hobbies</u>. Mention what activities you like doing, when you do them, how frequent, why you like them, etc. Do you do them by yourself, or with your friends? (Units 5C & 6B)."
-  idArray [5] = "<b>TOPIC 1:</b> <u>Talk about all the vegetables you like or dislike</u>, including their names, why you like or dislike them, how often you eat them, etc. How do they taste? In what format or containers do they come? (Unit 5C: Present Simple / 6B: Prefence verbs)."
-  idArray [6] = "<b>TOPIC 1:</b> Imagine you are in the middle of a busy city area. <u>Describe the things that are happening & mention all there is around you</u> at that moment. You can use your imagination. (Unit 5C: Present Continuous)."
-  idArray [7] = "<b>TOPIC 1:</b> Look outside your window / outside your front door. <u>Describe all the things that are happening at that moment, including all there is around you</u>. (Unit 5C: Present Continuous)."
+ idArray = new Array()
 
-  document.getElementById("select1").onclick = myFunctionOne;
-  randomParagraph = Math.floor(Math.random()*7);
+ // UNIT 7 - Grammar: Simple Past (to be: was / were), regular verbs, spelling -ed endings.
+ // UNIT 7 - Vocabulary: Past time expressions (yesterday, last night, a month ago, etc.), Word Formation (write -> writer), expressions with go/have/get.
 
-  document.getElementById("result-one").innerHTML = idArray[randomParagraph + 1];
+ idArray [1] = "<b>TOPIC 1:</b> What was <u>the last movie you saw</u>? Talk about who were the main characters and what happened to them. (Unit 8)."
+ idArray [2] = "<b>TOPIC 1:</b> Talk about the <u>last time you went out</u> with a friend or family member. You can say <u>where you went, what you did</u> and why. (Unit 8)."
+ idArray [3] = "<b>TOPIC 1:</b> Talk about the <u>last time you went on holiday</u>. You can say <u>who you went with, where you went, what you did</u> and if you enjoyed it. (Unit 8)."
+ idArray [4] = "<b>TOPIC 1:</b> Talk about <u>your last trip on summer vacation, including the activities you did</u>, including the people you were with, the food you ate, etc. (Unit 8)."
+ idArray [5] = "<b>TOPIC 1:</b> Talk about <u>the last time you went camping, went on a road trip or stayed at a friend's house</u>, including how long it was, where you stayed, what you did or ate, etc. (Unit 8)."
+ idArray [6] = "<b>TOPIC 1:</b> Talk about <u>the last time you were outside in nature</u> (like the countryside, a forest, river or lake). You can mention was there, the activities you did, the people you met, etc. (Unit 8)."
+
+ // UNIT 8 - Grammar: Simple Past (Irregular verbs), there is / there are, there was / were, some / any + plural nouns.
+ // UNIT 8 - Vocabulary: the house & house objects (singular / plural), Prepositions: place & movement.
+
+ idArray [7] = "<b>TOPIC 1:</b> <u>Describe your bedroom in detail</u>, including all the things you can see there, where they are, the colors and sizes, the number of things, etc. Remember to use correct prepositions. (Units 8)."
+ idArray [8] = "<b>TOPIC 1:</b> <u>Describe your living room in detail</u>, including all the things you can see there, where they are, the colors and sizes, the number of things, etc. Remember to use correct prepositions. (Units 8)."
+ idArray [9] = "<b>TOPIC 1:</b> <u>Describe your kitchen in detail</u>, including all the things you can see, where they are, the colors and sizes, the number of things, etc. Remember to use correct prepositions. (Units 8)."
+
+ document.getElementById("select1").onclick = myFunctionOne;
+ randomParagraph = Math.floor(Math.random()*9);
+
+ document.getElementById("result-one").innerHTML = idArray[randomParagraph + 1];
 }

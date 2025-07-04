@@ -23,7 +23,7 @@ function myFunctionThree() {
   idArray [15] = "<b>TOPIC 3:</b> What <u>would you usually do after school finished</u> when you were younger? How would you get home from elementary school? (Unit 11A)."
 
   // Past Perfect
-  idArray [16] = "<b>TOPIC 3:</b> <u>What interesting books had you read</u> (red) before the start of your university studies? Mention the titles, stories, the authors, etc. (Unit 12A)."
+  idArray [16] = "<b>TOPIC 3:</b> <u>What interesting books had you read</u> -/red/- before the start of your university studies? Mention the titles, stories, the authors, etc. (Unit 12A)."
   idArray [17] = "<b>TOPIC 3:</b> <u>Had you learned to cook</u> before starting university / moving out of your parents' house? What meals had you prepared the most? (Unit 12A)."
 
   document.getElementById("select3").onclick = myFunctionThree;
