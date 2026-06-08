@@ -2,10 +2,10 @@ function myFunctionOne() {
   idArray = new Array()
 
   // UNIT 1: Verb to be, Days of the week, countries, alphabet, numbers, Possessive adjectives (my ___, your___, etc), classroom language.
-  idArray [1] = "<b>TOPIC:</b> <u>Talk about you.... introduce yourself</u>, including your name, spell your name, say your age, what you do, your likes, etc. (Unit 1)."
-  idArray [2] = "<b>TOPIC:</b> Talk about<u> some people who live in your family</u>. Mention their names, their age & what they do. (Unit 1/3)."
-  idArray [3] = "<b>TOPIC:</b> Talk about<u> some of your best friends</u>. Mention their names, their age & what they do. (Unit 1/3)."
-  idArray [4] = "<b>TOPIC:</b> Talk about<u> some of your closest classmates</u>. Mention their names, their age & what they do. (Unit 1)."
+  idArray [1] = "<b>TOPIC:</b> <u>Talk about your.... introduce yourself</u>, spell your name, say your age, what you usually do, your likes & hobbies, etc. (Unit 1)."
+  idArray [2] = "<b>TOPIC:</b> Talk about<u> some people who live in your family</u>. Mention their names, their age, what they usually do, things they like, etc. (Unit 1/3)."
+  idArray [3] = "<b>TOPIC:</b> Talk about<u> some of your closest classmates</u>. Mention their names, their age, what they normally do, things they like, etc. (Unit 1)."
+  idArray [4] = "<b>TOPIC:</b> Talk about<u> some of your best friends</u>. Mention their names, their age, what they do, things they like, etc. (Unit 1/3)."
 
   // UNIT 2: Singular/Plural nouns (these / those) (there is / are), things, prepositions (in, on, under), adjectives.
   idArray [5] = "<b>TOPIC:</b> Show and describe <u>some of the things there are in your bedroom</u>, including what those things are, their size & color, where they are, etc. (Unit 2)."
