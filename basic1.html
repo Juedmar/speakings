@@ -38,12 +38,14 @@ function sound() {
 <p>
 <b>INSTRUCTIONS:</b><br>
 <ol>
-1. FORMAT: Record yourself on your phone or a meeting app talking about the topics below.<br>
+1. VIDEO: Record yourself on your phone or a meeting app talking about the topics below.<br>
 2. <a id="topics" style="text-decoration: none; color: black;">TOPICS: Choose only TWO TOPICS (2) to cover in the presentation (individually, 1 student only).</a><br>
-3. <a id="timing" style="text-decoration: none; color: black;">TIME: Each topic should last around 60 seconds (10 seconds more/less is still okay for each topic).</a><br>
-4. SUBMISSION: Attach the video <font color="#FF073A"><b>directly</b></font> on the <a href="https://classroom.google.com/" target="classroom" onclick="sound();">Google Classroom</a> assignment (<font color="#FF073A"><b>not by e-mail!</b></font>).<br>
-5. <a id="deadline" style="text-decoration: none; color: black;">DEADLINE: The final date for sending your video is <span id="theDate">Friday, June 5th, 2026</span>.</a><br>
-6. PERFORMANCE: Do not read from a script. You can quickly check some notes, but most importantly speak as a natural conversation or presentation.<br>
+3. <a id="timing" style="text-decoration: none; color: black;">TIME: You have about 60 seconds per topic (-/+10 seconds is still okay). <span class="red">2 mintues max!</span></a><br>
+4. LANGUAGE: Your presentation must be <span class="red">in English</span>, similar to a natural conversation or video blog.<br>
+5. PERFORMANCE: You can check some quick notes, but <span class="red">can't read</span> all the time or memorize everything.<br>
+6. PLATFORM: Attach the video <font color="#FF073A"><b>directly</b></font> on the <a href="https://classroom.google.com/" target="classroom" onclick="sound();">Google Classroom</a> assignment (<font color="#FF073A"><b>not by e-mail!</b></font>).<br>
+7. CONFIRMATION: You are responsible for your video upload, be sure to do it correctly.<br>
+8. <a id="deadline" style="text-decoration: none; color: black;">DEADLINE: The final date for sending your video is <span id="theDate">Friday, June 5th</span>, <span id="currentYear">2026</span>.</a><br>
 </ol>
 </p>
 
@@ -69,18 +71,19 @@ function sound() {
 
 <p>
 <b>IMPORTANTE:</b><br>
-<ul>La presentaci&oacute;n debe ser un video grabado en un solo clip. Se puede utilizar c&aacute;mara de celular, o v&iacute;a Zoom, Google Meet, Skype o alguna otra aplicaci&oacute;n donde se pueda utilizar una c&aacute;mara web. La grabaci&oacute;n debe tener claridad de audio, sin obstrucci&oacute;n visual y enfocada principalmente en al rostro.</ul>
-<ul>Los <a href="#top" onclick="changeStyle('topics'); sound();">2 temas</a> y el contenido de su presentaci&oacute;n deben estar relacionados con el vocabulario y las estructuras gramaticales de cada unidad, y se deben utilizar en conjunto.</ul>
+<ul>El nombre del archivo debe ser: "Apellido, Nombre (Clase - Carrera)".</ul>
 <ul>En respuestas que excedan el <a href="#top" onclick="changeStyle('timing'); sound();">tiempo asignado</a>, no se considerar&aacute; el tiempo extra.</ul>
-<ul>El nombre del archivo debe ser: "Lastname, Name (Class - Program)".</ul>
-<ul>El <a href="#top" onclick="changeStyle('deadline'); sound();">plazo final</a> se debe cumplir para poder realizar el an&aacute;lisis y la evaluaci&oacute;n correspondiente.</ul>
-<ul>El resultado se ingresar&aacute; directo en la plataforma de Google Classroom siguiendo los lineamientos ya establecidos en la <a href="https://juedmar.github.io/assessment/" target="rubric" onclick="sound();">r&uacute;brica de evaluaci&oacute;n</a>.</ul>
-<ul>No se considerar&aacute;n entregas posteriores al plazo, con la excepci&oacute;n de la justificaci&oacute;n debidamente presentada ante la Direcci&oacute;n de Carrera.</ul>
+<ul>Los <a href="#top" onclick="changeStyle('topics'); sound();">temas</a> y el contenido de su presentaci&oacute;n debe ser en Ingl&eacute;s, adem&aacute;s de relacionarse al vocabulario y las estructuras gramaticales de cada unidad (indicadas en par&eacute;ntesis).</ul>
+<ul>La presentaci&oacute;n debe ser un video grabado en un solo clip, sin cortes o edición. Se puede utilizar c&aacute;mara de celular, o v&iacute;a Zoom, Google Meet, Skype o alguna otra aplicaci&oacute;n donde se pueda utilizar una c&aacute;mara web. La grabaci&oacute;n debe tener claridad de audio, sin obstrucci&oacute;n visual y enfocada principalmente en al rostro.</ul>
+<ul>El resultado se ingresar&aacute; directo en la plataforma de Google Classroom siguiendo los lineamientos ya establecidos en la <a href="https://juedmar.github.io/assessment/videos.html" target="rubric" onclick="sound();">r&uacute;brica de evaluaci&oacute;n</a>.</ul>
+<ul>El <a href="#top" onclick="changeStyle('deadline'); sound();">plazo final</a> se debe cumplir para poder realizar el an&aacute;lisis y la evaluaci&oacute;n correspondiente. No se considerar&aacute;n entregas posteriores al plazo, con la excepci&oacute;n de la justificaci&oacute;n debidamente presentada ante la Direcci&oacute;n de Carrera.</ul>
 </p>
 <br>
 </div>
 
 <center><font class="text-juedmar">Developed by Juan Edo. M&eacute;ndez (juan.mendez@upla.cl)</font></center>
+
+
 
 
 <script>
@@ -102,6 +105,12 @@ function changeStyle(id)
 
 <script type="text/javascript">
 function testDate() {
+// GETTING CURRENT YEAR
+let thisDate = new Date()
+let thisYear = thisDate.getFullYear()
+document.getElementById("currentYear").innerHTML = thisYear
+
+// GETTING URL VALUES - UPDATE!
 var theDate = document.getElementById('theDate')
 var originalDate = document.getElementById('theDate')
 var newDate = (new URLSearchParams(window.location.search)).get("when")
