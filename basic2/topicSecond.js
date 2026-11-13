@@ -15,7 +15,7 @@ function myFunctionTwo() {
  idArray [8] = "<b>TOPIC B:</b> Compare <u>two countries</u>. Which one is a better vacation location? (Unit 9)."
  idArray [9] = "<b>TOPIC B:</b> Compare <u>two types of international food.</u> Which is more delicious? Which is cheaper?"
  idArray [10] = "<b>TOPIC B:</b> Compare <u>two of your favorite restaurants.</u> Which is cheaper? Which is healthier? (Unit 9)."
- idArray [11] = "<b>TOPIC B:</b> Compare <u>two of your favorite foods or dished.</u> Which is cheaper? Which is healthier? (Unit 9)."
+ idArray [11] = "<b>TOPIC B:</b> Compare <u>two of your favorite foods or dishes.</u> Which is cheaper? Which is healthier? (Unit 9)."
  idArray [12] = "<b>TOPIC B:</b> Answer this question: Which is <u>more important, money or happiness</u>? (Unit 9)."
  idArray [13] = "<b>TOPIC B:</b> Answer this question: Which is <u>more important, friends or family? Why</u>? (Unit 9)."
  idArray [14] = "<b>TOPIC B:</b> Answer this question: Is it better to <u>live in the country or in a city</u>? Why? (Unit 9)."
